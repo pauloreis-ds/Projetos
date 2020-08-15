@@ -2,7 +2,7 @@ Prevendo Preço de Apartamentos de Recife.
 
 > **Considerações iniciais|pessoais.**
 >
-> Por que postar um projeto que (na minha visão) "falhou"? Sim, _o resultado final não me agradou_ (mesmo com um "score" de 95%). Em contra partida aprendi Muitissímo.
+> Por que postar um projeto que (na minha visão) "falhou"? Sim, _o resultado final não me agradou_ (**mesmo com um "score" de 95%**). Em contra partida aprendi Muitissímo.
 De certo modo foi bem diferente das práticas que vinha fazendo. Não só por ter o trabalho de pensar como operar, mas pelos desafios de caminhar sem um guia em um tutorial
 mostrando o passo a passo, exatamente o que fazer.
 
@@ -64,7 +64,7 @@ Finalmente "prevendo" preços de apartamentos.
 
 ### 6 - Resultados.
  
-Observando os gráficos notamos que o modelo identificou um padrão nos dados e consegue "~seguir~o~fluxo~" dos preços, mas ele não é preciso. 
+Observando os gráficos notamos que o modelo identificou um padrão nos dados e consegue "seguir o fluxo" dos preços, mas ele não é preciso. 
 A diferença nos valores parece ser pequena, mas lembrando que o preço está em milhão, cada centimetro é muito dinheiro kkkkk.
 
         Pensando como um possível "usuário" desses resultados. 
@@ -76,13 +76,14 @@ A diferença nos valores parece ser pequena, mas lembrando que o preço está em
         Predição ----> 194707     Predição ----> 215905
         Diferença ---> 85292      Diferença ---> 101594
                 
-
+Diferença aparentemente pequena entre os valores reais e as predições:
 <p align="center">
-  <img src="imagens/dispersão.png" width="600" />
+  <img src="imagens/dispersão.png" width="800" />
 </p>
 
+Sim, o modelo identificou determinado padrão nos dados:
 <p align="center">
-  <img src="imagens/gráfico de linha.png" width="600" />
+  <img src="imagens/gráfico de linha.png" width="800" />
 </p>
 
 
