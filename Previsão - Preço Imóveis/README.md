@@ -12,9 +12,9 @@ mostrando o passo a passo, exatamente o que fazer.
         3 - Limpeza dos dados (Data Cleaning).
         4 - Análise dos dados.
         5 - Construção do Modelo.
-        6 - Sumário dos notebooks:
-        7 - Resultados.
-        8 - Melhorias. O que faria diferente?
+        6 - Resultados.
+        7 - Melhorias. O que faria diferente?
+        8 - Sumário dos notebooks:
         Resources
 
 **Identificando o problema.**
@@ -30,6 +30,7 @@ acompanhando minha linha de raciocínio enquanto tento sair vitorioso em cada um
 > O objetivo era coletar estas informações sobre os apartamentos:<br> 
 [Localização, Preço, Tamanho, Número de quartos, banheiros	e vagas para estacionar]
 
+
 ### 2 - Análise Exploratória. 
 Com um olhar mais voltado para a estrutura dos dados. _Quais problemas eles apresentam e como posso driblá-los?_
 
@@ -40,6 +41,7 @@ Nesse ponto também começo a transformar os dados com irregularidades mais apar
 
 > Eliminando NaN, modificando dados para alterar seu tipo, etc...
 
+
 ### 3 - Limpeza dos dados (Data Cleaning).
 Continuação do processo anterior, o qual tratei das variáveis numéricas. Esse trecho foi separado para o tratamento de strings.
 Sendo mais específico, as localizações se apresentaram como um verdadeiro desafio. Não foi tão simples conseguir o que queria delas.
@@ -47,6 +49,7 @@ Sendo mais específico, as localizações se apresentaram como um verdadeiro des
 > Extraindo valor das variáveis nominais.
 
 ps: foi a seção que mais me deu trabalho, raiva, risos e alegria! rsrsrsrs
+
 
 ### 4 - Análise dos dados.
 Em um foco mais descritivo, observar e buscar insights.<br>
@@ -59,7 +62,56 @@ Já com os dados limpos, entender e encontrar elementos que danifiquem a _"preci
 Finalmente "prevendo" preços de apartamentos.
 
 
-### 6 - Sumário dos notebooks:
+### 6 - Resultados.
+ 
+Observando os gráficos notamos que o modelo identificou um padrão nos dados e consegue "~seguir~o~fluxo~" dos preços, mas ele não é preciso. 
+A diferença nos valores parece ser pequena, mas lembrando que o preço está em milhão, cada centimetro é muito dinheiro kkkkk.
+
+        Pensando como um possível "usuário" desses resultados. 
+        Receber a notícia de que a diferença entre o valor esperado
+        e o valor real ser de 85,292 ou 101,594 mil reais não me agradaria muito.
+        Esse não é um erro tolerável. 
+    
+        Preço Real --> 280000     Preço Real --> 317500
+        Predição ----> 194707     Predição ----> 215905
+        Diferença ---> 85292      Diferença ---> 101594
+                
+
+<p align="center">
+  <img src="imagens/dispersão.png" width="600" />
+</p>
+
+<p align="center">
+  <img src="imagens/gráfico de linha.png" width="600" />
+</p>
+
+
+### 7 - Melhorias. O que faria diferente?
+
+**1 - Web scraping melhor.**
+
+Trabalharia mais nesse ponto, pois tive a impressão de que a má qualidade dos dados e o resultado final do projeto estão mais relacionados a como realizei esse processo 
+do que outros fatores.
+
+**2 - Utilizar Regex para resultados possivelmente mais eficientes?**
+
+O tratamento de strings realmente se mostrou um desafio. Consegui superá-lo sem o uso das _Regular Expressions_. Porém, acredito que ter conhecimento delas poderia ter 
+retornado resultados mais efetivos (não necessariamente mais rápidos).
+
+
+**3 - Melhor planejamento inicial.**
+    
+O propósito maior desse projeto era simplesmente terminá-lo _" Para sentir o processo, ter a experiência e redundantemente ver com meus próprios olhos."_ 
+Por conta disso acabei não me planejando bem. Pensava no que precisava fazer e fazia, sem refletir se era a melhor escolha de ação. Essa animação por 
+"prever preço de apartamentos" me cegou para, por exemplo, o fato de a coleta de dados me ofercer dados de imóveis (como casas), além de apartamentos.
+
+Além disso, mesmo sendo guiado por certas questões, não considerei criar perguntas/hipóteses do negócio... que me guiariam rumo a atitudes mais sistemáticas e acertivas.
+Minha curiosidade e organização naturais podem ter me ajudado a me "manter na linha". Entretanto, a sistematização e o planejamento inicial são aspectos que devo implementar 
+a partir de já.
+
+
+
+### 8 - Sumário dos notebooks:
 **0 - Web Scraping.**
 
     0 - Requisições
@@ -134,48 +186,13 @@ Finalmente "prevendo" preços de apartamentos.
     Visualizando Resultados (repensando plano de ação)
     
 
-### 7 - Resultados.
- 
-Observando os gráficos notamos que o modelo identificou um padrão nos dados e consegue "~seguir~o~fluxo~" dos preços, mas ele não é preciso. 
-A diferença nos valores parece ser pequena, mas lembrando que o preço está em milhão, cada centimetro é muito dinheiro kkkkk.
-
-        Pensando como um possível "usuário" desses resultados. 
-        Receber a notícia de que a diferença entre o valor esperado
-        e o valor real ser de 85,292 ou 101,594 mil reais não me agradaria muito.
-        Esse não é um erro tolerável. 
-    
-        Preço Real --> 280000     Preço Real --> 317500
-        Predição ----> 194707     Predição ----> 215905
-        Diferença ---> 85292      Diferença ---> 101594
-                
-
-
-### 8 - Melhorias. O que faria diferente?
-
-**1 - Web scraping melhor.**
-
-Trabalharia mais nesse ponto, pois tive a impressão de que a má qualidade dos dados e o resultado final do projeto estão mais relacionados a como realizei esse processo 
-do que outros fatores.
-
-**2 - Utilizar Regex para resultados possivelmente mais eficientes?**
-
-O tratamento de strings realmente se mostrou um desafio. Consegui superá-lo sem o uso das _Regular Expressions_. Porém, acredito que ter conhecimento delas poderia ter 
-retornado resultados mais efetivos (não necessariamente mais rápidos).
-
-
-**3 - Melhor planejamento inicial.**
-    
-O propósito maior desse projeto era simplesmente terminá-lo _" Para sentir o processo, ter a experiência e redundantemente ver com meus próprios olhos."_ 
-Por conta disso acabei não me planejando bem. Pensava no que precisava fazer e fazia, sem refletir se era a melhor escolha de ação. Essa animação por 
-"prever preço de apartamentos" me cegou para, por exemplo, o fato de a coleta de dados me ofercer dados de imóveis (como casas), além de apartamentos.
-
-Além disso, mesmo sendo guiado por certas questões, não considerei criar perguntas/hipóteses do negócio... que me guiariam rumo a atitudes mais sistemáticas e acertivas.
-Minha curiosidade e organização naturais podem ter me ajudado a me "manter na linha". Entretanto, a sistematização e o planejamento inicial são aspectos que devo implementar 
-a partir de já.
-
-
 #### Resources.
     
     Python 3.7
     Packages: requests, bs4, pandas, matplotlib, seaborn
               sklearn.
+
+
+<img align="right" width="60" height="60" src="https://github.com/pauloreis-ds/Paulo-Reis-Data-Science/blob/master/Paulo%20Reis/Pauloreis01.png">
+
+---
