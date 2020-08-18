@@ -69,7 +69,7 @@ A diferença nos valores parece ser pequena, mas lembrando que o preço está em
 
         Pensando como um possível "usuário" desses resultados. 
         Receber a notícia de que a diferença entre o valor esperado
-        e o valor real ser de 85,292 ou 101,594 mil reais não me agradaria muito.
+        e o valor real ser de 80 ou 100 mil reais não me agradaria muito.
         Esse não é um erro tolerável. 
     
         Preço Real --> 280000     Preço Real --> 317500
@@ -106,7 +106,7 @@ O propósito maior desse projeto era simplesmente terminá-lo _" Para sentir o p
 Por conta disso acabei não me planejando bem. Pensava no que precisava fazer e fazia, sem refletir se era a melhor escolha de ação. Essa animação por 
 "prever preço de apartamentos" me cegou para, por exemplo, o fato de a coleta de dados me ofercer dados de imóveis (como casas), além de apartamentos.
 
-Além disso, mesmo sendo guiado por certas questões, não considerei criar perguntas/hipóteses do negócio... que me guiariam rumo a atitudes mais sistemáticas e acertivas.
+Além disso, mesmo sendo guiado por certas questões, não considerei criar perguntas/hipóteses do negócio... que me guiariam rumo a atitudes mais sistemáticas e assertivas.
 Minha curiosidade e organização naturais podem ter me ajudado a me "manter na linha". Entretanto, a sistematização e o planejamento inicial são aspectos que devo implementar 
 a partir de já.
 
