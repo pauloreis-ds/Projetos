@@ -2,7 +2,7 @@ Prevendo Preço de Apartamentos de Recife - Protótipo.
 
 > **Considerações iniciais|pessoais.**
 >
-> Por que postar um projeto que (na minha visão) "falhou"? Sim, _o resultado final não me agradou_ (**mesmo com um "score" de 95%**). Em contra partida aprendi Muitissímo.
+> Por que postar um projeto que (na minha visão) "falhou"? Sim, _o resultado final não me agradou_ (**mesmo com um "score" de 95%**). Em contra partida aprendi Muitíssimo.
 De certo modo foi bem diferente das práticas que vinha fazendo. Não só por ter o trabalho de pensar como operar, mas pelos desafios de caminhar sem um guia em um tutorial
 mostrando o passo a passo, exatamente o que fazer.
 
