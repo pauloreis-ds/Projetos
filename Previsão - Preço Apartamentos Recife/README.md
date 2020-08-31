@@ -1,6 +1,10 @@
+<p align="center">
+  <img src="images/recife1.jpg" width="800" />
+</p>
+
 # Prevendo Preços de Apartamentos de Recife
 
-    Sumário: 
+    Sumário:
         1 - Web Scraping.
         2 - Análise Exploratória.
         3 - Data Cleaning.
@@ -10,6 +14,10 @@
         7 - Melhorias. O que faria diferente?
         8 - Sumário dos notebooks:
         Resources
+        
+<p align="center">
+  <img src="images/data.png" width="850" />
+</p>
 
 **Identificando o problema.**
 
@@ -62,7 +70,7 @@ Diferença aparentemente pequena entre os valores reais e as predições:
     
 
 <p align="center">
-  <img src="images/valor predição scatter.png" width="700" />
+  <img src="images/valor predição scatter.png" width="850" />
 </p>    
 
 
@@ -70,16 +78,16 @@ Modelo identificou determinado padrão nos dados:
 
 
 <p align="center">
-  <img src="images/valor predição line.png" width="700" />
+  <img src="images/valor predição line.png" width="850" />
 </p> 
 
 
-Quantidade de predições de acordo com a quantia (em R\$)
+Quantidade de predições de acordo com a quantia (em R\$) que elas se afastam dos valores reais.
 
 
 <p float="left">
-  <img src="distance0.png" width="500" />
-  <img src="distance1.png" width="500" />
+  <img src="images/distance0.png" width="650" />
+  <img src="images/distance1.png" width="650" />
 </p>
 
 [Extra (testes de ML) Imóveis.ipynb](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/5%20Extra%20(testes%20de%20ML)%20Im%C3%B3veis.ipynb)
