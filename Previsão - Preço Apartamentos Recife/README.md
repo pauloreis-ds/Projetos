@@ -1,8 +1,8 @@
+# Prevendo Preços de Apartamentos de Recife
+
 <p align="center">
   <img src="images/recife1.jpg" width="800" />
 </p>
-
-# Prevendo Preços de Apartamentos de Recife
 
     Sumário:
         1 - Web Scraping.
@@ -86,8 +86,8 @@ Quantidade de predições de acordo com a quantia (em R\$) que elas se afastam d
 
 
 <p float="left">
-  <img src="images/distance0.png" width="600" />
-  <img src="images/distance1.png" width="600" />
+  <img src="images/distance0.png" width="500" />
+  <img src="images/distance1.png" width="500" />
 </p>
 
 [Extra (testes de ML) Imóveis.ipynb](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/5%20Extra%20(testes%20de%20ML)%20Im%C3%B3veis.ipynb)
