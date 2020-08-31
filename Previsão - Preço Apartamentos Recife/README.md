@@ -17,7 +17,7 @@
 algoritmos como LinearRegression() ou DecisionTreeRegressor() podem ajudar.
 
 
-###  1 - Web Scraping.
+###  1 - [Web Scraping.](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/0%20Web%20Scraping%20Im%C3%B3veis.ipynb)
 Obtive os dados dos sites [pe.olx](https://pe.olx.com.br/), [redeimoveispe](https://www.redeimoveispe.com.br/) e [vivareal](https://www.vivareal.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Institucional-VivaReal&gclid=EAIaIQobChMI0u-7iMa06wIVgg2RCh3e0AV4EAAYASAAEgKsaPD_BwE&utm_referrer=https%3A%2F%2Fwww.google.com%2F&__vt=gv:a). 
 E também reaproveitei informações do [protótipo](https://github.com/pauloreis-ds/Projetos/tree/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis) deste projeto 
 (cujos dados vieram do [ZAP Imóveis](https://www.zapimoveis.com.br/)).
@@ -26,26 +26,26 @@ E também reaproveitei informações do [protótipo](https://github.com/paulorei
 [Localização, Preço, Tamanho, Número de quartos, banheiros e vagas para estacionar]
 
 
-### 2 - Análise Exploratória.
+### 2 - [Análise Exploratória.](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/1%20An%C3%A1lise%20Explorat%C3%B3ria%20Im%C3%B3veis.ipynb)
 Com um olhar mais voltado para a estrutura dos dados. _Quais problemas eles apresentam e como posso driblá-los?_
 
 > Uma caminhada em cada coluna da tabela para identificar mudanças que precisarão acontecer.<br>
 Além de refletir como aplicar as alterações.
 
 
-### 3 - Data Cleaning.
+### 3 - [Data Cleaning.](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/2%20Data%20Cleaning%20Im%C3%B3veis.ipynb)
 Limpeza dos dados. Tratamento dos elementos da tabela. Transformação e conversão dos tipos de dados para que eles possam ser utilizados.
 
 > Extraindo valor das variáveis.
 
 
-### 4 - Análise dos dados.
+### 4 - [Análise dos dados.](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/3%20An%C3%A1lise%20dos%20dados%20Im%C3%B3veis.ipynb)
 Em um foco mais descritivo, observar e buscar insights.<br>
 Já com os dados limpos, entender e encontrar elementos que danifiquem a " _precisão_ " do modelo.
 
 > Caçada de outliers e dados inconsistentes...
      
-### 5 - Construção do Modelo.
+### 5 - [Construção do Modelo.](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/4%20Modelagem%20Im%C3%B3veis.ipynb)
  
 Finalmente "prevendo" preços de apartamentos. 
    
@@ -60,14 +60,32 @@ Observando os gráficos notamos que o modelo identificou um padrão nos dados e 
    
 Diferença aparentemente pequena entre os valores reais e as predições:
     
-    IMAGEM IMAGEM IMAGEM
-    
-    
+
+<p align="center">
+  <img src="images/valor predição scatter.png" width="700" />
+</p>    
+
+
 Modelo identificou determinado padrão nos dados:    
-    
-    IMAGEM IMAGEM IMAGEM
-    
-    
+
+
+<p align="center">
+  <img src="images/valor predição line.png" width="700" />
+</p> 
+
+
+Quantidade de predições de acordo com a quantia (em R\$)
+
+
+<p float="left">
+  <img src="distance0.png" width="500" />
+  <img src="distance1.png" width="500" />
+</p>
+
+[Extra (testes de ML) Imóveis.ipynb](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/5%20Extra%20(testes%20de%20ML)%20Im%C3%B3veis.ipynb)
+
+[Código Modelo "Otimizado"](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/6%20-%20Modelo%20Otimizado.ipynb)
+   
 ### 7 - Melhorias. O que faria diferente?
 
 **1 - Coleta de Dados.**
@@ -167,3 +185,8 @@ como "A quem a solução será útil? Como esse cliente fará uso dela? De que m
     Packages: requests, bs4, 
               pandas, matplotlib, seaborn,
               sklearn, json.
+           
+           
+[<img align="right" width="60" height="60" src="https://github.com/pauloreis-ds/Paulo-Reis-Data-Science/blob/master/Paulo%20Reis/Pauloreis01.png">](https://github.com/pauloreis-ds)
+
+---
