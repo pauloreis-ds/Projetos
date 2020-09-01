@@ -1,6 +1,6 @@
 # Prevendo Preços de Apartamentos de Recife
 
-<video src="images/web app apartament.wmv" width="320" height="200" controls preload></video>
+<video src="images/web app apartament.wmv" width="320" height="200"></video>
 
 
 <p align="center">
