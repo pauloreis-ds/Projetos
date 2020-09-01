@@ -2,11 +2,8 @@
 
 
 [![web app](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/images/web%20app.JPG)](https://www.youtube.com/embed/wj0uYYJ3ZNA)
+[Vídeo.](https://www.youtube.com/embed/wj0uYYJ3ZNA)
 
-
-<p align="center">
-  <img src="images/recife1.jpg" width="800" />
-</p>
 
     Sumário:
         1 - Web Scraping.
@@ -197,6 +194,11 @@ como "A quem a solução será útil? Como esse cliente fará uso dela? De que m
     Packages: requests, bs4, 
               pandas, matplotlib, seaborn,
               sklearn, json.
+  
+  
+<p align="center">
+  <img src="images/recife1.jpg" width="800" />
+</p>
            
            
 [<img align="right" width="60" height="60" src="https://github.com/pauloreis-ds/Paulo-Reis-Data-Science/blob/master/Paulo%20Reis/Pauloreis01.png">](https://github.com/pauloreis-ds)
