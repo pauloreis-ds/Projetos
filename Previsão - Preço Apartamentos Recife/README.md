@@ -84,7 +84,7 @@ Modelo identificou determinado padrão nos dados:
 </p> 
 
 
-Quantidade de predições de acordo com a quantia (em R\$) que elas se afastam dos valores reais (também conhecido como... o erro).
+Quantidade de predições de acordo com a quantia (em R\$) que elas se afastam dos valores reais (também conhecida como... erro).
 
 > Aproximadamente 50% delas estão abaixo de 50.000. Em termos de negócio, dependendo de quanto estejamos dispostos a "errar", esse resultado pode ser considerado ruim ou mais ou menos... e talvez... apenas um talvez, bom. kkkkk
 >
