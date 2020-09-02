@@ -15,6 +15,7 @@
         7 - Melhorias. O que faria diferente?
         8 - Sumário dos notebooks:
         Resources
+        Observações
         
 <p align="center">
   <img src="images/data.png" width="850" />
@@ -195,7 +196,11 @@ como "A quem a solução será útil? Como esse cliente fará uso dela? De que m
               pandas, matplotlib, seaborn,
               sklearn, json.
   
-  
+**Observações**
+
+> A aplicação web não é de minha autoria, copiei o código do [Code Basics](https://github.com/codebasics/py/tree/master/DataScience/BangloreHomePrices) (que me inspirou a trabalhar nesse tema) o estudei e alterei para se encaixar ao meu projeto. Como a finalidade era a prática e experiência, o deploy da aplicação web (que falhou :'( por isso gravei o vídeo de seu funcionamento) veio como um extra. Foi bem divertido fazê-lo funcionar e buscar como torná-lo disponível a todos.
+
+
 <p align="center">
   <img src="images/recife1.jpg" width="800" />
 </p>
