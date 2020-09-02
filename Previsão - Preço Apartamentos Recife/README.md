@@ -84,7 +84,11 @@ Modelo identificou determinado padrão nos dados:
 </p> 
 
 
-Quantidade de predições de acordo com a quantia (em R\$) que elas se afastam dos valores reais.
+Quantidade de predições de acordo com a quantia (em R\$) que elas se afastam dos valores reais (também conhecido como... o erro).
+
+> Aproximadamente 50% delas estão abaixo de 50.000. Em termos de negócio, dependendo de quanto estejamos dispostos a "errar", esse resultado pode ser considerado ruim ou mais ou menos... e talvez... apenas um talvez, bom. kkkkk
+>
+> E aproximadamente 1000 observações, 33% das estimativas tem entre 50.000 e 100.000 reais de diferença para o valor real.
 
 
 <p float="left">
@@ -92,11 +96,14 @@ Quantidade de predições de acordo com a quantia (em R\$) que elas se afastam d
   <img src="images/distance1.png" width="500" />
 </p>
 
+
 [Extra (testes de ML) Imóveis.ipynb](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/5%20Extra%20(testes%20de%20ML)%20Im%C3%B3veis.ipynb)
 
 [Código Modelo "Otimizado"](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/6%20-%20Modelo%20Otimizado.ipynb)
    
 ### 7 - Melhorias. O que faria diferente?
+
+Primeiramente, a métrica que me guiaria seria a princípio tentar diminuir a frequência de aparição dos valores de erros "ingênuos" (de 50 a 100 mil). Ingênuos porque há vezes em que esse erro é negativo, o que em um contexto de compra, por exemplo, significaria que a empresa vezes teria um custo a mais, vezes teria um "desconto" por estimar que o custo seria maior que o real. Além de eliminar de vez as elevadas diferenças acima de 100 mil reais.
 
 **1 - Coleta de Dados.**
 
@@ -107,6 +114,10 @@ Após aplicar alguns testes, penso que para melhorar a estimativa do algoritmo a
 É provável que algumas decisões minhas não tenham sido as melhores. E a interação com algum especialista no assunto com certeza guiaria certas decisões para um caminho 
 mais assertivo. Até mesmo por o problema abordado nesse projeto ser, de certo modo, genérico __("Prever Preços de Apartamentos")__, pois decidi desconsiderar questões 
 como "A quem a solução será útil? Como esse cliente fará uso dela? De que maneira ele se beneficiará?".
+
+**3 - More Features**
+
+E, em um processamento profissional, utilizar mais fatores que influenciam o preço, como nível de segurança local, facilidades e opções de lazer, estado de conservação estrutural ("idade"), entre outros.
 
 ### 8 - Sumário dos notebooks (principais):
 
