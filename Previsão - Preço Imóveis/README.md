@@ -23,7 +23,7 @@ mostrando o passo a passo, exatamente o que fazer.
   algoritmos como LinearRegression() ou DecisionTreeRegressor() podem nos ajudar.
 
 
-### 1 - [Web Scraping.](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis/notebooks/0%20Im%C3%B3veis%20-%20Processo%20de%20Web%20Scraping%20.ipynb) 
+### 1 - [Web Scraping.](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis/notebooks/0%20Im%C3%B3veis%20-%20Processo%20de%20Web%20Scraping%20.ipynb) 
 Obtive os dados do site [ZAP Imóveis](https://www.zapimoveis.com.br/) e para fins didáticos decidi manter todo o progesso (com erros, acertos, dúvidas e frustrações) à mostra,
 acompanhando minha linha de raciocínio enquanto tento sair vitorioso em cada um dos desafios.
 
@@ -31,7 +31,7 @@ acompanhando minha linha de raciocínio enquanto tento sair vitorioso em cada um
 [Localização, Preço, Tamanho, Número de quartos, banheiros	e vagas para estacionar]
 
 
-### 2 - [Análise Exploratória.](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis/notebooks/1%20Im%C3%B3veis%20-%20An%C3%A1lise%20Explorat%C3%B3ria.ipynb) 
+### 2 - [Análise Exploratória.](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis/notebooks/1%20Im%C3%B3veis%20-%20An%C3%A1lise%20Explorat%C3%B3ria.ipynb) 
 Com um olhar mais voltado para a estrutura dos dados. _Quais problemas eles apresentam e como posso driblá-los?_
 
 > Uma caminha em cada coluna da tabela para identificar mudanças que precisarão acontecer.<br>
@@ -42,7 +42,7 @@ Nesse ponto também começo a transformar os dados com irregularidades mais apar
 > Eliminando NaN, modificando dados para alterar seu tipo, etc...
 
 
-### 3 - [Limpeza dos dados (Data Cleaning).](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis/notebooks/2%20Im%C3%B3veis%20-%20Data%20Cleaning%20(strings)%20Localiza%C3%A7%C3%A3o.ipynb)
+### 3 - [Limpeza dos dados (Data Cleaning).](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis/notebooks/2%20Im%C3%B3veis%20-%20Data%20Cleaning%20%28strings%29%20Localiza%C3%A7%C3%A3o.ipynb)
 Continuação do processo anterior, o qual tratei das variáveis numéricas. Esse trecho foi separado para o tratamento de strings.
 Sendo mais específico, as localizações se apresentaram como um verdadeiro desafio. Não foi tão simples conseguir o que queria delas.
 
@@ -51,14 +51,14 @@ Sendo mais específico, as localizações se apresentaram como um verdadeiro des
 ps: foi a seção que mais me deu trabalho, raiva, risos e alegria! rsrsrsrs
 
 
-### 4 - [Análise dos dados.](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis/notebooks/3%20Im%C3%B3veis%20-%20An%C3%A1lise%20dos%20Dados.ipynb)
+### 4 - [Análise dos dados.](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis/notebooks/3%20Im%C3%B3veis%20-%20An%C3%A1lise%20dos%20Dados.ipynb)
 Em um foco mais descritivo, observar e buscar insights.<br>
 Já com os dados limpos, entender e encontrar elementos que danifiquem a _"precisão"_ do modelo.
 
 > Caçada de outliers e dados inconsistentes...
 
 
-### 5 - [Construção do Modelo.](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis/notebooks/4%20Im%C3%B3veis%20-%20Modelagem.ipynb)
+### 5 - [Construção do Modelo.](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Im%C3%B3veis/notebooks/4%20Im%C3%B3veis%20-%20Modelagem.ipynb)
 Finalmente "prevendo" preços de apartamentos.
 
 
