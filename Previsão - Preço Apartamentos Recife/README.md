@@ -1,5 +1,5 @@
 # Prevendo Preços de Apartamentos de Recife
-
+[<img align="right" width="60" height="60" src="https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/images/sejaumdatascientist.png">](https://sejaumdatascientist.com/) Este projeto tem o selo Meigarom de validação! Hehe Confira a [consultoria](https://www.youtube.com/watch?v=cCpnbD7kpCQ) e o notebook em que mostro as diferenças e vantagens do novo aprendizado ([Refactoring.ipynb](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/notebooks/Refactoring.ipynb)).
 
 [![web app](https://github.com/pauloreis-ds/Projetos/blob/master/Previs%C3%A3o%20-%20Pre%C3%A7o%20Apartamentos%20Recife/images/web%20app.JPG)](https://www.youtube.com/embed/wj0uYYJ3ZNA)
 [Vídeo.](https://www.youtube.com/embed/wj0uYYJ3ZNA)
