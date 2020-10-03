@@ -1,4 +1,12 @@
-> Disclaimer: O Contexto a seguir, é completamente fictício, a empresa, o CEO, as perguntas de negócio existem somente no imaginário humano.
+> Disclaimer: o contexto a seguir é completamente fictício, a empresa, o CEO, as perguntas de negócio existem somente no imaginário humano.
+
+[notebook.](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/Desafio%20-%20House%20Rocket/notebooks/House%20Rocket%20%28HR%29.ipynb)
+
+
+<p align="center">
+  <img src="images/Imagem1.jpg" width="450" />
+</p>
+
 
 ## Contexto.
 A House Rocket é uma plataforma digital que tem como modelo de negócio, a compra e a venda de imóveis usando tecnologia.
@@ -18,7 +26,9 @@ e a localização e o período do ano também podem influenciar os preços, o qu
 Portanto, as questões a serem respondidas são:
 
     Quais casas o CEO da House Rocket deveria comprar e por qual preço de compra?
+    
     A House Rocket deveria fazer uma reforma para aumentar o preço da venda?
+    
     Quais seriam as sugestões de mudanças? Qual o incremento no preço dado por cada opção de reforma?
 
 O [conjunto de dados](https://www.kaggle.com/harlfoxem/housesalesprediction) que representa o contexto está disponível na plataforma do Kaggle e contém casas vendidas entre Maio de 2014 e Maio de 2015.
@@ -51,15 +61,26 @@ No fim, temos **listas com:**
 
 - _51 casas que ao serem reformadas podem trazer bons retornos._
 
-Além disso, sim, há indícios de que uma reforma contribua para elevar o valor de venda (aumentando os lucros). 
+E seus respectivos preços. Além disso, sim, há indícios de que uma reforma contribua para elevar o valor de venda (aumentando os lucros). 
+ 
+ 
+<p align="center">
+  <img src="images/luxuosas e indicações.png" width="650" />
+</p> 
+ 
  
 > ps: os resultados mostrados são arrendondados (sempre para baixo... fica mais fácil de pronunciar :) kkkkkk ).
 
-Em mudanças mais particulares e específicas o ideal seria focar no **design** _['grade']_ e na **vista** _['view']_ . Pois são os que mais incrementam o valor da casa, em aproximadamente **75 mil** (olhando por uma estimativa média _"mínima"_ , explicação em detalhes ao fim do notebook).
+Em mudanças mais particulares e específicas o ideal seria focar no **design** _['grade']_ e na **vista** _['view']_ . Pois são os que mais incrementam o valor da casa, em aproximadamente **75 mil** (olhando por uma estimativa média _"mínima"_ , explicação em detalhes ao fim do [notebook](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/Desafio%20-%20House%20Rocket/notebooks/House%20Rocket%20%28HR%29.ipynb)).
 
 Já em alterações que afetam múltiplas áreas, podemos olhar para o conjunto [condition, grade e view], aplicando reformas que atingam tanto a **condição** quanto o **design** e a **vista** da casa, por apresentar acréscimos de em média **165 mil dólares**.
 
 > Mais opções são apresentadas na explicação no fim do notebook e para não extender a leitura aqui as manterei lá.
+
+
+<p align="center">
+  <img src="images/renovated and grade.JPG" width="650" />
+</p> 
 
 
 ## 4 - Melhorias. O que faria diferente?
@@ -106,6 +127,12 @@ Já em alterações que afetam múltiplas áreas, podemos olhar para o conjunto 
               numpy, statsmodels, sklearn.
               
               
+              
+<p align="center">
+  <img src="images/Locais luxuosos.png" width="650" />
+</p> 
+
+ 
 [<img align="right" width="60" height="60" src="https://github.com/pauloreis-ds/Paulo-Reis-Data-Science/blob/master/Paulo%20Reis/Pauloreis01.png">](https://github.com/pauloreis-ds)
 
 ---
