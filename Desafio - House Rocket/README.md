@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="images/Imagem1.jpg" width="450" height="225" />
+  <img src="images/Imagem1.jpg" width="450" height="210" />
 </p>
 
 
@@ -75,7 +75,7 @@ Em mudanças mais particulares e específicas o ideal seria focar no **design** 
 
 Já em alterações que afetam múltiplas áreas, podemos olhar para o conjunto [condition, grade e view], aplicando reformas que atingam tanto a **condição** quanto o **design** e a **vista** da casa, por apresentar acréscimos de em média **165 mil dólares**.
 
-> Mais opções são apresentadas na explicação no fim do notebook e para não extender a leitura aqui as manterei lá.
+> Mais opções são apresentadas na explicação no fim do notebook e para não estender a leitura aqui as manterei lá.
 
 
 <p align="center">
