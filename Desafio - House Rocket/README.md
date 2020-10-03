@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="images/Imagem1.jpg" width="450" />
+  <img src="images/Imagem1.jpg" width="450" height="225" />
 </p>
 
 
@@ -79,7 +79,7 @@ Já em alterações que afetam múltiplas áreas, podemos olhar para o conjunto 
 
 
 <p align="center">
-  <img src="images/renovated and grade.JPG" width="650" />
+  <img src="images/renovated and grade.JPG" width="850" />
 </p> 
 
 
@@ -129,7 +129,7 @@ Já em alterações que afetam múltiplas áreas, podemos olhar para o conjunto 
               
               
 <p align="center">
-  <img src="images/Locais luxuosos.png" width="650" />
+  <img src="images/Locais luxuosos.png" width="900" />
 </p> 
 
  
