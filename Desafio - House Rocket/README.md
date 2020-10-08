@@ -73,7 +73,7 @@ E seus respectivos preços. Além disso, sim, há indícios de que uma reforma c
 
 Em mudanças mais particulares e específicas o ideal seria focar no **design** _['grade']_ e na **vista** _['view']_ . Pois são os que mais incrementam o valor da casa, em aproximadamente **75 mil** (olhando por uma estimativa média _"mínima"_ , explicação em detalhes ao fim do [notebook](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/Desafio%20-%20House%20Rocket/notebooks/House%20Rocket%20%28HR%29.ipynb)).
 
-Já em alterações que afetam múltiplas áreas, podemos olhar para o conjunto [condition, grade e view], aplicando reformas que atingam tanto a **condição** quanto o **design** e a **vista** da casa, por apresentar acréscimos de em média **165 mil dólares**.
+Já em alterações que afetam múltiplas áreas, podemos olhar para o conjunto [condition, grade e view], aplicando reformas que atinjam tanto a **condição** quanto o **design** e a **vista** da casa, por apresentar acréscimos de em média **165 mil dólares**.
 
 > Mais opções são apresentadas na explicação no fim do notebook e para não estender a leitura aqui as manterei lá.
 
