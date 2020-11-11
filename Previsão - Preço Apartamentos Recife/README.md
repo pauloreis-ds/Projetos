@@ -211,7 +211,7 @@ E, em um processamento profissional, utilizar mais fatores que influenciam o pre
   
 **Observações**
     
-> observação das obsobservações: semanas e semanas no futuro, felicíssimo estou por ter conseguido finalizar o deploy utilizando o streamlit. Estou estudando-o para um novo projeto e decidi voltar aqui e tentar novamente. Consegui hehe! \(*O*)/. Este é o [código](https://github.com/pauloreis-ds/recife_apartments_prediction) da aplicação em funcionamento.
+> observação das obsobservações: semanas e semanas no futuro, felicíssimo estou por ter conseguido finalizar o deploy utilizando o streamlit. Estou estudando-o para um novo projeto e decidi voltar aqui e tentar novamente. Consegui hehe! \\(\*O\*)/. Este é o [código](https://github.com/pauloreis-ds/recife_apartments_prediction) da aplicação em funcionamento.
 
 > A aplicação web (inicial) não é de minha autoria, copiei o código do [Code Basics](https://github.com/codebasics/py/tree/master/DataScience/BangloreHomePrices) (que me inspirou a trabalhar nesse tema) o estudei e alterei para se encaixar ao meu projeto. Como a finalidade era a prática e experiência, o deploy da aplicação web (que falhou :'( por isso gravei o [vídeo](https://www.youtube.com/watch?v=wj0uYYJ3ZNA) de seu funcionamento) veio como um extra. Foi bem divertido fazê-lo funcionar e buscar como torná-lo disponível a todos.
 
