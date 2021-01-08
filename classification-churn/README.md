@@ -240,7 +240,7 @@ ps: there are more formulas we could discuss about, but for this project those t
 > with and without credit card, it seems that those with no credit card would <br>
 > be the ones who would bring more revenue
 
-### Higher credit score doesn't mean more revenue.
+### Higher credit score means more revenue.
 
     If that so, we would see the color getting darker from left to right.
     
