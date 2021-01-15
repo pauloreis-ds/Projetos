@@ -41,10 +41,6 @@ In addition, you will need to provide a report reporting the performance of your
     What is the model's performance in classifying customers as churns?
     What is the expected return, in terms of revenue, if the company uses your model to avoid churn from customers?
 
-A possible action to prevent the customer from churning is to offer a discount coupon, or some other financial incentive for him to renew his contract for another 12 months.
-
-Which customers would you give the financial incentive to and what would that amount be, in order to maximize ROI (Return on Investment). Recalling that the sum of incentives cannot exceed 10,000.00 EUR
-
 ---   
 
 ## 2. Results
