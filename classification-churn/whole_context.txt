@@ -33,3 +33,10 @@
     Another example would be customers who have not made a purchase for more than 60 days. These customers can be
     considered churn customers until a purchase is made. The 60-day period is completely arbitrary and varies
     between companies.
+
+
+A possible action to prevent the customer from churning is to offer a discount coupon, or some other financial incentive for him to renew 
+his contract for another 12 months.
+
+Which customers would you give the financial incentive to and what would that amount be, in order to maximize ROI (Return on Investment).
+Recalling that the sum of incentives cannot exceed 10,000.00 EUR
