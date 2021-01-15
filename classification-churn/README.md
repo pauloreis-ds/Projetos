@@ -12,41 +12,23 @@
 
 ## 1. Context of the Problem.
 
-        TopBank is a large banking services company. It operates mainly in European countries offering financial
-        products, from bank accounts to investments, including some types of insurance and investment products.
+**TopBank Company**
 
-        The company's business model is a service type, that is, it sells banking services to its customers through
-        physical agencies and an online portal.
+- A Bank Services Company, with main operations on Europe.
 
-        The company's main product is a bank account, in which the customer can deposit his salary, make withdrawals,
-        deposits and transfer to other accounts. This bank account has no cost to the customer and is valid for 12 
-        months, that is, the customer needs to renew the contract of that account to continue using it for the next
-        12 months.
+- Offers financial products such as bank account, investments and insurance.
 
-        According to the TopBank Analytics team, each customer who has this bank account returns a monetary value of
-        15% of the value of their estimated salary, if it is less than the average and 20% if this salary is higher 
-        than the average, during the current period of your account. This value is calculated annually.
+- Business Model: banking services through physical agencies and online.
 
-        For example, if a customer's monthly salary is 1,000.00 EUR and the average of all bank wages is 800 EUR. 
-        The company, therefore, invoices 200 EUR annually with this client. If this customer has been in the bank 
-        for 10 years, the company has already earned 2,000.00 EUR from its transactions and account usage.
+- Main Product: bank account without costs, valid for 12 months. After this period, the account must be renovated.
 
-        In recent months, the Analytics team realized that the rate of customers canceling their accounts and 
-        leaving the bank reached unprecedented numbers in the company. Concerned about the increase in this rate,
-        the team devised an action plan to reduce the rate of customer evasion.
+- Bank account revenue per client:
+   - 15% of client's estimated monthly salary, for clients with estimated income lower than the average;
+   - 20% of client's estimated monthly salary, for clients with estimated income greater than the average.
 
-        Concerned about the drop in this metric, TopBank's Analytics team hired you as a Data Science consultant to
-        create an action plan, with the objective of reducing customer evasion, that is, preventing the customer from
-        canceling his contract and not renew it for another 12 months. This evasion, in business metrics, is known as
-        Churn.
+**Problem**
 
-        In general, Churn is a metric that indicates the number of customers who have canceled the contract or have
-        stopped buying your product within a certain period of time. For example, customers who canceled the service
-        contract or after it expired, did not renew it, they are considered churn customers.
-
-        Another example would be customers who have not made a purchase for more than 60 days. These customers can be
-        considered churn customers until a purchase is made. The 60-day period is completely arbitrary and varies
-        between companies.
+- Clients' cancellation rate increased significantly in the last few months.
 
 #### The challenge
 As a Data Science Consultant, you need to create an action plan to decrease the number of churn customers and show the financial return on your solution.
