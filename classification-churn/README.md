@@ -8,8 +8,8 @@
 
 [DataSet.](https://www.kaggle.com/mervetorkan/churndataset) <br>
 [Analysis](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/classification-churn/notebooks/topBank.ipynb)<br>
-[ML Modeling](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/classification-churn/notebooks/topBankModel.ipynb)
-[PySpark Version](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/classification-churn/notebooks/1.0-pr-topbank-churn-pyspark.ipynb)
+[ML Modeling](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/classification-churn/notebooks/topBankModel.ipynb)<br>
+[PySpark Version](https://nbviewer.jupyter.org/github/pauloreis-ds/Projetos/blob/master/classification-churn/notebooks/1.0-pr-topbank-churn-pyspark.ipynb)<br>
 
 ## 1. Context of the Problem.
 
